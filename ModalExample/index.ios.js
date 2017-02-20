@@ -16,7 +16,6 @@ import {
   Switch
 } from 'react-native';
 
-
 class Button extends Component {
   
   state = {
@@ -101,8 +100,6 @@ export default class ModalExample extends Component {
           </View>
           </View>
         </Modal>
-        
-        // 
 
         <View style={styles.row}>
           <Text style={styles.rowTitle}>Animation Type</Text>
